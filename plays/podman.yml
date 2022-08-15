@@ -1,7 +1,7 @@
 ---
 
 - name: ansible podman play
-  hosts: adm
+  hosts: all
   remote_user: student
   become: yes
   become_method: sudo 
