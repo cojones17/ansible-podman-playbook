@@ -1,10 +1,11 @@
 ---
-- name: Install podman
-  hosts: adm
-  remote_user: centos
+
+- name: ansible podman play
+  hosts: all
+  remote_user: student
   become: yes
   become_method: sudo 
-  var_files:
-    - groups_vars/all/main.yml
-roles:
-  - { role: ansible-podman-role } 
+  # var_files:
+  #   - groups_vars/all/main.yml
+  roles:
+    - { role: ansible-podman-role } 
