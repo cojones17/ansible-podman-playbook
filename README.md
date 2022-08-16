@@ -16,7 +16,7 @@ This playbook installs and configures the [Ansible Podman Role](https://github.c
 
   3. Clone or download this repository to your local drive.
   4. Clone https://github.com/cojones17/ansible-podman-role to the roles/ directory `git clone https://github.com/cojones17/ansible-podman-role ./roles/ansible-podman-role`
-  5. Update ./inventory/hosts as needed with the host/s you want to execute this Ansible Playbook on
+  5. Update `./inventory/hosts` as needed with the host/s you want to execute this Ansible Playbook on
   6. Run `ansible-playbook ./plays/podman.yml  --inventory-file=./inventory/hosts --ask-pass` inside this directory. Enter your server password when prompted for the 'BECOME' password.
 
 
