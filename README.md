@@ -1,5 +1,9 @@
-# ansible-podman-playbook
+# Ansible Podman Playbook
 This playbook installs and configures the [Ansible Podman Role](https://github.com/freemanpdwork/ansible-podman-role)
+
+## Requirements
+- Apple Macbook Pro (tested w/ macOS Monterey)
+- Ansible version 2.13.1+
 
 ## Installation
 
@@ -18,6 +22,7 @@ This playbook installs and configures the [Ansible Podman Role](https://github.c
 
 ## Roadmap
 - Add Make automation for pre-deployment steps and checks for items 4 and 5 in the Installation section above
+- Test and add guidance for running this Playbook on a Linux server and other platforms
 
 License Information
 ------------------
